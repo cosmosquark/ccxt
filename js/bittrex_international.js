@@ -8,7 +8,7 @@ const { TRUNCATE, DECIMAL_PLACES } = require ('./base/functions/number');
 
 //  ---------------------------------------------------------------------------
 
-module.exports = class bittrex extends Exchange {
+module.exports = class bittrex_international extends Exchange {
     describe () {
         return this.deepExtend (super.describe (), {
             'id': 'bittrex-international',
